@@ -1,0 +1,9 @@
+<x-layout>
+    <x-slot:title>
+        Users
+    </x-slot:title>
+    <h1>{{$city}}</h1>
+    <p>{{$name}}</p>
+    <p>{{$surname}}</p>
+    <p>{{$salary}}</p>
+</x-layout>
