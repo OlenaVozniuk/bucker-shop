@@ -19,5 +19,4 @@ class UserPolicy
     {
         return $userActive->getKey() !== $userToChange->getKey();
     }
-
 }
