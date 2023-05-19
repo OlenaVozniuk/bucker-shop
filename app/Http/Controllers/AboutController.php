@@ -13,7 +13,7 @@ class AboutController extends Controller
      */
     public function index(CategoryServiceInterface $categoryService): View
     {
-        echo 456;
+        echo 45556;
         return view('about.about', [
             'categories' => $categoryService->getAll(),
         ]);
