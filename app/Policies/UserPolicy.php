@@ -17,6 +17,7 @@ class UserPolicy
      */
     public function manage(User $userActive, User $userToChange): bool
     {
+        echo 14566;
         echo 1445;
         echo 5678;
         return $userActive->getKey() !== $userToChange->getKey();
