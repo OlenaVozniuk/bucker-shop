@@ -2,9 +2,6 @@
 
 namespace Database\Seeders;
 
-
-use Database\Seeders\OldProject\PostsSeeder;
-use Database\Seeders\OldProject\UsersSeeder;
 use Illuminate\Database\Seeder;
 
 
@@ -18,7 +15,6 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         $this->call([
-            PostsSeeder::class,
             UsersSeeder::class,
         ]);
     }
