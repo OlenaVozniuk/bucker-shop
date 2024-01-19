@@ -18,7 +18,7 @@ class UsersSeeder extends Seeder
         User::query()->create([
             'name' => 'Olena',
             'email' => 'elena.voznuk@gmail.com',
-            'password' => Hash::make('024bk3')
+            'password' => Hash::make('12345')
         ]);
     }
 }
